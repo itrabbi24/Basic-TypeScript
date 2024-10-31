@@ -22,3 +22,12 @@
 // Generic
 
 
+
+
+// how to install typescript
+// https://www.typescriptlang.org/download/
+
+
+// globally install typescript
+npm install -g typescript
+
