@@ -19,7 +19,9 @@ let job : null = null;
 let hobbies : string[] = ["Sports", "Cooking"];
 
 // Number Array
-let mixed : any[] = ["John", 30, true];
+let mixed : [string, number, boolean] = ["John", 30, true];
+
+let mixedArray : any[] = ["John", 30, true];
 
 // Tuple
 let address : [string, number] = ["Superstreet", 99];
