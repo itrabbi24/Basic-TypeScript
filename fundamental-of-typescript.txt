@@ -44,3 +44,17 @@ tsc --init
 
 
 
+Primitive & Non Primitive
+
+Primitive
+-Number
+-String
+-Boolean
+-null
+-undefined
+-Symbol
+
+Non-Primitive
+-Array
+-Tuple
+-Object
