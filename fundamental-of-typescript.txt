@@ -31,3 +31,16 @@
 // globally install typescript
 npm install -g typescript
 
+
+
+// TypeScript Configure
+tsc --init
+
+
+// go to src->tsconfig.json-> find rootdir and uncomment it
+
+// find tsconfig.json -> "outDir": "./dist", for outDir
+
+
+
+
