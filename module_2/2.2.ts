@@ -20,3 +20,16 @@ const user : Person = {
     name: "John",
     age: 30
 }
+
+
+// extends
+
+interface Person3 extends Person {
+    gender: string;
+}
+
+const user2 : Person3 = {
+    name: "John",
+    age: 30,
+    gender: "Male"
+}
