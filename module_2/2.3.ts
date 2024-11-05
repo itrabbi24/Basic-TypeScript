@@ -49,3 +49,33 @@ const userWithId : GenericTuple<number, {name: string, age: number, id: number}>
         id: 1
     }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+type GenericArray<T> = Array<T>;
+
+interface Tuser  {
+    name: string;
+    age: number;
+}
+
+const users : GenericArray<Tuser> = [
+    {
+        name: "John",
+        age: 30
+    },
+    {
+        name: "Jane",
+        age: 28
+    }
+    ];
+
