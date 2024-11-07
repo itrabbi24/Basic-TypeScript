@@ -11,6 +11,11 @@
     // readonly
 
 
+
+    // public
+    // private
+    // protected
+
     class BackAccount{
         public readonly id: number;
         public name: string;
