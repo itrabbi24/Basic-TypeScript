@@ -39,11 +39,24 @@ class Cat extends Animal {
     }
 }
 
+const isDog = (animal: Animal) : animal is Dog =>{
+    return animal instanceof Dog;
+}
+
+const isCat  = (animal: Animal) : animal is Cat=>{
+    return animal instanceof Cat;
+}
+
+
 const getAnimals = (animal: Animal) => {
-    if (animal instanceof Dog) {
+    // if (animal instanceof Dog) {
+    if (isDog(animal)) {
         animal.makeBrack();
-    } else if (animal instanceof Cat) {
+    // } else if (animal instanceof Cat) {
+    } else if (isCat(animal)) {
         animal.makeMeaw();
+    }else{
+        animal.makeSound();
     }
 }
 
